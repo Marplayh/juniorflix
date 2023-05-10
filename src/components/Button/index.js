@@ -1,8 +1,9 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-const Button = styled.a`
-color: var(--white);
-border: 1px solid var(--white);
+const Button = styled(Link)`
+color: var(--primary);
+border: 1px solid var(--primary);
 box-sizing: border-box;
 cursor: pointer;
 padding: 16px 24px;
@@ -13,10 +14,12 @@ outline: none;
 border-radius: 5px;
 text-decoration: none;
 display: inline-block;
-transition: opacity .3s;
+transition: 0.5s;
 &:hover,
 &:focus {
-opacity: .5;
+color: var(--black);
+border: 1px solid var(--primary);
+background-color: var(--primary);
 }
 `;
 
