@@ -8,7 +8,7 @@ function Menu() {
     return(
        <nav className="Menu">
         <Link to="/">
-         <img className='Logo' src={Logo} alt="Alluraflix logo"/>
+         <img className='Logo' src={Logo} alt="Juniorflix logo"/>
         </Link>
         <Button as={Link} className="ButtonLink" to="/cadastro/video">
            Novo vídeo
