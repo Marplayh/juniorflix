@@ -1,5 +1,6 @@
+/* eslint-disable import/no-extraneous-dependencies */
+/* eslint-disable import/prefer-default-export */
 import styled from 'styled-components';
-
 
 export const FooterBase = styled.footer`
   background: var(--black);

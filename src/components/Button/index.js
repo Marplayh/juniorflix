@@ -1,5 +1,6 @@
-import { Link } from "react-router-dom";
-import styled from "styled-components";
+/* eslint-disable import/no-extraneous-dependencies */
+import { Link } from 'react-router-dom';
+import styled from 'styled-components';
 
 const Button = styled(Link)`
 color: var(--primary);
